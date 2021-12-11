@@ -13,7 +13,6 @@
 @import url(../blocks/content/resources/resources.css);
 @import url(../blocks/footer/footer.css);
 
-
 @keyframes rotation{
   from {
     transform: rotate(0deg);
