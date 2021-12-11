@@ -1,0 +1,15 @@
+﻿.video{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 -50px 0;
+}
+
+.video__iframes{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 50px auto 0 auto;
+  width: 1050px;
+}
