@@ -1,47 +1,22 @@
-﻿@import url(../blocks/header/header.css);
+﻿@import url(../vendor/normalize.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
 @import url(../blocks/section-subtitle/section-subtitle.css);
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/two-columns/two-columns.css);
-@import url(../blocks/content/description/description.css);
-@import url(../blocks/content/techniques/techniques.css);
-@import url(../blocks/content/video/video.css);
-@import url(../blocks/content/oakley/oakley.css);
-@import url(../blocks/content/feynman/feynman.css);
-@import url(../blocks/content/digits/digits.css);
-@import url(../blocks/content/khan/khan.css);
-@import url(../blocks/content/kaufman/kaufman.css);
-@import url(../blocks/content/resources/resources.css);
+@import url(../blocks/rotation/rotation.css);
+@import url(../blocks/table/table.css);
+@import url(../blocks/description/description.css);
+@import url(../blocks/techniques/techniques.css);
+@import url(../blocks/video/video.css);
+@import url(../blocks/oakley/oakley.css);
+@import url(../blocks/feynman/feynman.css);
+@import url(../blocks/digits/digits.css);
+@import url(../blocks/khan/khan.css);
+@import url(../blocks/kaufman/kaufman.css);
+@import url(../blocks/resources/resources.css);
 @import url(../blocks/footer/footer.css);
-
-@keyframes rotation{
-  from {
-    transform: rotate(0deg);
-}
-to {
-    transform: rotate(360deg);
-}
-}
-
-.page {
-  min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
-  max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
-  margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-}
-
-.kaufman__triangle{
-  position: absolute;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url("../images/kaufman-triangle.svg");
-  width: 877px;
-  height: 877px;
-  top: 0;
-  right: -210px;
-  z-index: -1;
-  animation: rotation 20s linear infinite;
-}
+@import url(../blocks/table/_theme/table_theme.css);
+@import url(../blocks/table/_theme/section-title_theme.css);
+@import url(../blocks/table/_theme/section-subtitle_theme.css);
+@import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
