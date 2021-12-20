@@ -8,14 +8,6 @@
   margin: 0;
 }
 
-.footer__columns{
-  width: 90%;
-  margin: 0 auto;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  display: flex;
-}
-
 .footer__column{
   display: flex;
   flex-direction: column;
@@ -74,11 +66,4 @@
 .footer__column-link:hover{
   opacity: 0.5;
   transition: 1s;
-}
-
-.logo_place_footer{
-  height: 35px;
-  width: 183px;
-  top: 0;
-  right: 0;
 }
